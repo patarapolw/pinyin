@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../src/index.js"],"sourcesContent":["// export const pinyin = require('chinese-to-pinyin')\nexport const pinyin = require('invalid')\n"],"names":[],"mappings":"AAAA;AACY,MAAC,MAAM,GAAG,OAAO,CAAC,SAAS;;;;"}
