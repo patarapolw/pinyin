@@ -1,1 +1,0 @@
-import{c as e}from"./vendor.808591b2.js";if("undefined"!=typeof window&&window.location){const n=new URL(window.location.href).searchParams.get("q");n&&(document.getElementById("q").value=n,document.getElementById("output").innerText=e(n,{toneToNumber:!0,keepRest:!0}))}
