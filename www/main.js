@@ -1,6 +1,6 @@
 import pinyin from 'chinese-to-pinyin'
 
-if (typeof window !== 'undefined' && window.location) {
+if (typeof window !== 'undefined' && !window.Deno && window.location) {
   const u = new URL(window.location.href)
   const q = u.searchParams.get('q')
   if (q) {
